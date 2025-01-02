@@ -3,6 +3,8 @@
   height: 50px;
   background-color:white;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .top p{
   text-align:right;
