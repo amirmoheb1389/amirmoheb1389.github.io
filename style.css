@@ -1,8 +1,0 @@
-h1{
-  color:red;
-}
-.title{
-  text-align:center;
-}
-@font-face { font-family: 'MyCustomFont'; src: url('Vazir.woff2') format('woff2'), url('Vazir.woff') format('woff'); font-weight: normal; font-style: normal; } body { font-family: 'MyCustomFont', sans-serif; }
-body { font-family: 'MyCustomFont', sans-serif; }
