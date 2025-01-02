@@ -3,6 +3,9 @@
   height: 100%;
   background-color:white;
 }
+.with_me{
+  text-align:right;
+}
 h1 {
   color: white;
 }
