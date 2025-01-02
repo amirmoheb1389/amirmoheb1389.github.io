@@ -4,6 +4,9 @@
   background-color:white;
   display: flex;
 }
+p{
+  text-align:right;
+}
 .with_me{
   text-align:right;
 }
