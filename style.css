@@ -2,6 +2,7 @@
   width: 100%;
   height: 50px;
   background-color:white;
+  display: flex;
 }
 .with_me{
   text-align:right;
