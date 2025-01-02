@@ -1,2 +1,4 @@
 h1{
   color:red;}
+@font-face { font-family: 'MyCustomFont'; src: url('vazir.woff2') format('woff2'), url('vazir.woff') format('woff'); font-weight: normal; font-style: normal; } body { font-family: 'MyCustomFont', sans-serif; }
+body { font-family: 'MyCustomFont', sans-serif; }
