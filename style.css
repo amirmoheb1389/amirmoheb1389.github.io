@@ -4,7 +4,7 @@
   background-color:white;
   display: flex;
 }
-p{
+.top p{
   text-align:right;
   margin-bottom: 20px;
 }
