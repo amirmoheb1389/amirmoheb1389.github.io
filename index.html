@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سایت شخصی امیرمحمد محب</title>
-    <link rel="stylesheet" href="style.css">
+    <title>نمایش تگ با Hover</title>
+    <style>
+        /* تنظیمات برای تگ اصلی */
+        .hover-div {
+            width: 200px;
+            height: 50px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        /* تنظیمات برای تگ مخفی */
+        #hiddenTag {
+            display: none;
+            background-color: yellow;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="top">
-        <p class="with_me">ارتباط با من</p>
-        <p class="blog">وبلاگ</p>
-    </div>
-<div class="with_me_open"></div>
-    <h1 class="title">به سایت شخصی امیرمحمد محب خوش آمدید</h1>
+    <div class="hover-div" onmouseover="showTag()" onmouseout="hideTag()">روی من برو</div>
+    <div id="hiddenTag">من ظاهر شدم!</div>
+
+    <script>
+        function showTag() {
+            document.getElementById('hiddenTag').style.display = 'block';
+        }
+
+        function hideTag() {
+            document.getElementById('hiddenTag').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
