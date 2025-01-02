@@ -1,0 +1,23 @@
+.top{
+  width: 100%;
+  height: 50px;
+  background-color:white;
+  display: flex;
+}
+p{
+  text-align:right;
+  margin-bottom: 20px;
+}
+.with_me{
+  text-align:right;
+}
+h1 {
+  color: white;
+}
+.title{
+  text-align: center;
+}
+@font-face { font-family: 'MyCustomFont'; src: url('Vazir.woff2') format('woff2'), url('Vazir.woff') format('woff'); font-weight: normal; font-style: normal; } body { font-family: 'MyCustomFont', sans-serif; }
+body {
+  background-color:gray;
+  font-family: 'MyCustomFont', sans-serif; }
