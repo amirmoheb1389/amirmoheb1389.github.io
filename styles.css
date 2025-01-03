@@ -5,3 +5,8 @@ body {
 @font-face {
   font-family: 'MyCustomFont';
   src: url('Vazir.woff2') format('woff2');
+@media (max-width: 768px) {
+  .about_page{
+    float:center;
+    text-align:right;}
+}
