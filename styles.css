@@ -32,4 +32,5 @@ body{
     border-radius:20px;}
 .error{
   color:black;
-  text-align:right;}
+  text-align:right;
+  margin-right:10px;}
