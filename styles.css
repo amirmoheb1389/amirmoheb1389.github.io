@@ -12,7 +12,11 @@ body {
 
 @media (max-width: 768px) {
   .head{
-    font-size:50px;
+    font-size:100px;
+  }
+  .about_me{
+    font-size:40px;
+    text-align:white;
   }
 }
 
@@ -21,4 +25,7 @@ body {
 }
 .head{
   text-align:center;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    
 }
