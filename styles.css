@@ -11,6 +11,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .head{
+    font-size:50px;
+  }
 }
 
 .about_page {
