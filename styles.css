@@ -1,6 +1,7 @@
 body{
   background-color:gray;
   color:white;
+  font-family: 'MyCustomFont', sans-serif;
 }
 .about_div{
   float:right;
@@ -16,4 +17,8 @@ h1{
 .about{
   text-align:right;
   margin-right:70px;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Vazir.woff2') format('woff2');
 }
