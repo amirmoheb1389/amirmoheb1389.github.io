@@ -11,8 +11,14 @@ body{
   .head {
     text-align:center;
     font-size: 40px;
+  .about_page{
+    text-align:rhigt;
+    font-size:20px;
   }
 }
 .head{
+  text-align:center;
+}
+.about_page{
   text-align:center;
 }
