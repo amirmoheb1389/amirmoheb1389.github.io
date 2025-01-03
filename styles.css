@@ -5,6 +5,7 @@ body {
 }
 
 .about_div {
+  text-align:rhigt;
   float: right;
   width: 300px;
   height: 300px;
