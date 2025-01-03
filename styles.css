@@ -10,9 +10,9 @@ body {
   src: url('Vazir.woff2') format('woff2');
 }
 
-
 @media (max-width: 768px) {
-  .about_page {
+}
+
+.about_page {
     text-align: right;
-  }
 }
