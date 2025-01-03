@@ -13,10 +13,12 @@ body {
 @media (max-width: 768px) {
   .head{
     font-size:50px;
-    text-align:center;
   }
 }
 
 .about_page {
     text-align: center;
+}
+.head{
+  text-align:center;
 }
