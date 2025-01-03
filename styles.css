@@ -1,25 +1,43 @@
-body{
-  background-color:gray;
-  color:white;
+body {
+  background-color: gray;
+  color: white;
   font-family: 'MyCustomFont', sans-serif;
 }
-.about_div{
-  float:right;
-  width:500px;
-  height:500px;
-  background-color:white;
-  border-radius:5px;
-  margin-right:30px;
+
+.about_div {
+  float: right;
+  width: 500px;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 30px;
+  padding: 15px;
 }
-h1{
-  text-align:center;
+
+h1 {
+  text-align: center;
 }
-.about{
-  text-align:right;
-  margin-right:70px;
-  float:right;
+
+.about {
+  text-align: right;
+  margin-right: 70px;
+  float: right;
 }
+
+h2 {
+  text-align: left;
+  margin-left: 70px;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('Vazir.woff2') format('woff2');
+  font-family: 'MyCustomFont';
+  src: url('Vazir.woff2') format('woff2');
 }
