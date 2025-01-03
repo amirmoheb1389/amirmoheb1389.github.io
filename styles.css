@@ -25,4 +25,10 @@ body{
 .about_site{
   text-align:center;
 }
-@media (min-width: 769px) {}
+@media (min-width: 769px) {
+  .div_weblog{
+    background-color:white;
+    width:600px;
+    height:500px;
+    border-radius:20px;}
+}
