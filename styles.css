@@ -1,0 +1,14 @@
+body{
+  background-color:white;
+  font-family: 'MyCustomFont', sans-serif;
+  color:white;
+}
+  @font-face {
+  font-family: 'MyCustomFont';
+  src: url('Vazir.woff2') format('woff2');
+}
+@media (max-width: 768px) {
+  .head {
+    font-size: 100px;
+  }
+}
