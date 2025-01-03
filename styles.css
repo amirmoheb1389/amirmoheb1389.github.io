@@ -9,6 +9,10 @@ body{
 }
 @media (max-width: 768px) {
   .head {
+    text-align:center;
     font-size: 100px;
   }
+}
+.head{
+  text-align:center;
 }
