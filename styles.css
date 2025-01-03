@@ -17,6 +17,7 @@ h1{
 .about{
   text-align:right;
   margin-right:70px;
+  float:right;
 }
 @font-face {
     font-family: 'MyCustomFont';
