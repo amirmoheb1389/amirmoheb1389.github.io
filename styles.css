@@ -1,33 +1,39 @@
-
+/* استایل عمومی */
 body {
   background-color: gray;
   color: white;
   font-family: 'MyCustomFont', sans-serif;
 }
 
+/* تعریف فونت سفارشی */
 @font-face {
   font-family: 'MyCustomFont';
   src: url('Vazir.woff2') format('woff2');
 }
 
+/* استایل کلی */
+.about_page {
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+}
+
+/* استایل برای موبایل (عرض کمتر از 768px) */
 @media (max-width: 768px) {
-  .head{
-    font-size:100px;
+  .head {
+    font-size: 36px; /* کاهش اندازه برای موبایل */
   }
-  .about_me{
-    font-size:40px;
-    text-align:white;
+  .about_me {
+    font-size: 16px;
+    text-align: center; /* متن در مرکز برای موبایل */
   }
 }
 
-.about_page {
-    text-align: center;
-}
-.head{
-  text-align:center;
-}
+/* استایل برای لپتاپ (عرض بین 1024px و 1440px) */
 @media (min-width: 1024px) and (max-width: 1440px) {
-    .about_me{
-      text-align:rhigt;
-    }
+  .about_me {
+    text-align: right; /* متن در راست برای لپتاپ */
+  }
 }
