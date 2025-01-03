@@ -11,7 +11,7 @@ body{
   .head {
     text-align:center;
     font-size: 40px;}
-  .about_page{
+  .about_site{
     text-align:right;
     font-size:20px;
   }
@@ -19,6 +19,6 @@ body{
 .head{
   text-align:center;
 }
-.about_page{
+.about_site{
   text-align:center;
 }
