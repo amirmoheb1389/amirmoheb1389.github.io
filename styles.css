@@ -1,0 +1,9 @@
+body{
+  background-color:gray;
+  color:white;
+}
+.about-div{
+  float:right;
+  width:100px;
+  height:200px;
+}
