@@ -26,10 +26,15 @@ body{
   text-align:center;
 }
 .div_webloog{
+    display:flex;
     background-color:white;
     width:600px;
     height:500px;
-    border-radius:20px;}
+    border-radius:20px;
+    position: absolute;
+    top:63%; 
+    left:70%; 
+    transform: translate(-50%, -50%); /}
 .error{
   color:black;
   text-align:right;
