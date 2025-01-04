@@ -47,3 +47,13 @@ body{
   left:20%; 
   transform: translate(-50%, -50%); 
 }
+.my_ab_div{
+    display:flex;
+    background-color:white;
+    width:600px;
+    height:500px;
+    border-radius:20px;}
+.my_ab_li{
+  text-align:right;
+  color:black;
+  font-size:30px;}
