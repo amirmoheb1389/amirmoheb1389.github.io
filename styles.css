@@ -34,7 +34,7 @@ body{
     height:500px;
     border-radius:20px;
     position: absolute;
-    top:63%; 
+    top:70%; 
     left:70%; 
     transform: translate(-50%, -50%);}
 .error{
@@ -52,9 +52,14 @@ body{
     background-color:white;
     width:600px;
     height:500px;
-    border-radius:20px;}
+    border-radius:20px;
+position:absolute;
+top:35%;}
 .my_ab_li{ 
   text-align: right;
   color: black;
   font-size: 18px;
-  margin-bottom: 10px;}
+  margin-bottom: 10px;
+  direction:rtl;
+}
+
