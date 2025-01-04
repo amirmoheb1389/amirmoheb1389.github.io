@@ -17,6 +17,8 @@ body{
   .about_me{
     text-align:right;
   }
+  .my_ab_text{
+    text_align:center;
   }
 }
 .head{
@@ -39,3 +41,9 @@ body{
   color:black;
   text-align:right;
   margin-right:40px;}
+.my_ab_text{
+  position: absolute; 
+  top:28%;
+  left:20%; 
+  transform: translate(-50%, -50%); 
+}
