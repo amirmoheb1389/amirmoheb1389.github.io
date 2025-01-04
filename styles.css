@@ -53,7 +53,8 @@ body{
     width:600px;
     height:500px;
     border-radius:20px;}
-.my_ab_li{
-  text-align:right;
-  color:black;
-  font-size:30px;}
+.my_ab_li{ 
+  text-align: right;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;}
