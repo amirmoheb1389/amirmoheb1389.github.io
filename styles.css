@@ -51,7 +51,7 @@ body{
     display:flex;
     background-color:white;
     width:600px;
-    height:500px;
+    height:230px;
     border-radius:20px;
 position:absolute;
 top:35%;}
@@ -65,3 +65,9 @@ top:35%;}
   left:200%;
 }
 
+.my_pr_text{
+  position: absolute; 
+  bottom:18%;
+  left:20%; 
+  transform: translate(-50%, -50%); 
+}
