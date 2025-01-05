@@ -56,10 +56,12 @@ body{
 position:absolute;
 top:35%;}
 .my_ab_li{ 
+  position: relative;
   text-align: right;
   color: black;
   font-size: 18px;
   margin-bottom: 10px;
   direction:rtl;
+  left:200%;
 }
 
