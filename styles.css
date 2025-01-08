@@ -90,3 +90,13 @@ top:73%;
 .link:hover{
   text-decoration:underline;
 }
+.my_freind{
+  text-align:right;
+  position:absolute;
+  left:35%;
+  font-size:30px;
+  text-decoration:none;
+}
+.my_freind:hover{
+  text-decoration:underline;
+}
